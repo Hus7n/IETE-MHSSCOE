@@ -1,0 +1,20 @@
+.brand-logo{width:48px;height:48px;object-fit:contain;background:white;padding:4px;border-radius:50%}
+.member-portrait{width:88px;height:88px;border-radius:50%;background-image:url('/assets/committee-core.jpg');background-size:512px 640px;background-repeat:no-repeat;background-color:#08152d;margin-bottom:25px}
+.member-number{top:30px}.member-card{min-height:340px}.member-card .role-label{max-width:100%}
+.supporting-posters{display:grid;grid-template-columns:1fr 1fr;gap:40px;max-width:1100px;margin:0 auto}.supporting-posters figure{margin:0}.supporting-posters figcaption{font-size:12px;color:#a6b5d2;margin-top:15px}.supporting-posters img{width:100%;height:auto}.wider-team{border-bottom:1px solid var(--line)}
+.flagship-archive{display:grid;grid-template-columns:1.2fr 1fr;gap:7%;align-items:center;background:#f3f6ff;color:var(--ink)}.flagship-archive figure{margin:0}.flagship-archive img{width:100%;height:auto}.flagship-archive figcaption{font-size:11px;letter-spacing:.08em;color:#6c7891;margin-top:16px}.flagship-archive div>p:not(.eyebrow){color:#62728e}.flagship-archive h2{font-size:4rem}
+.event-content .eyebrow,.home-event-card .eyebrow,.faculty-card .role-label,.member-card .role-label{font-size:12px}
+.chair-card-photo{background-image:url('/assets/mirza-adnan.jpg');background-size:130% auto;background-position:50% 8%;filter:grayscale(1)}
+.chair-portrait{background-image:url('/assets/mirza-adnan.jpg');background-size:130% auto;background-position:50% 8%}
+.chair-portrait{background-image:url('/assets/mirza-adnan-cutout.png');background-size:contain;background-position:center bottom;mask-image:linear-gradient(#000 0%,#000 88%,transparent 100%);mask-composite:add;-webkit-mask-composite:source-over;width:620px;height:650px;bottom:20px;filter:none}
+.chair-name{top:135px}.chair-caption{bottom:38px;text-shadow:0 2px 25px #000}.chair-side-copy{bottom:200px}
+@media(max-width:760px){.chair-portrait{width:410px;max-width:115%;height:520px;bottom:62px}.chair-name{top:95px}.chair-side-copy{bottom:136px;width:100px}.chair-side-copy>p{font-size:1rem}.chair-caption{bottom:35px}.chair-caption>p{font-size:1.9rem}}
+.event-art-note{font-size:13px;color:#738099;margin:-16px 0 30px}.event-visual{height:470px}.event-visual img{object-fit:contain;background:#091428}.home-event-card>div{height:370px}.home-event-card img{object-position:center}
+.hero-copy,.history-card>p:last-of-type,.member-card>p:last-of-type,.faculty-card>p:last-child,.event-content>p:not(.eyebrow),.vision-values p,.split-title>p,.split-title>div{font-size:16px}
+.brand small,.hero-side,.hero-bottom,.eyebrow,.current-chip,.home-chair-card p,.chair-caption>span,.chair-side-copy .role-label,.faculty-card .role-label,.member-card .role-label,.event-visual .event-status,.flagship-title>span,.flagship-stamp>span,.poster-button>span{font-size:12px}
+.legacy-history .source-note{color:#61708a}
+@media(max-width:760px){.event-visual{height:430px}.home-event-card>div{height:380px}.event-content .eyebrow{font-size:12px}}
+@media(max-width:760px){.brand-logo{width:42px;height:42px}.supporting-posters,.flagship-archive{grid-template-columns:1fr;gap:35px}.member-card{min-height:0}.flagship-archive h2{font-size:3.3rem}.history-card h2 br{display:initial}.history-card h2 br:after{content:none}.home-hero .eyebrow{font-size:12px;max-width:300px}.hero-side{display:none}}
+
+/* Transparent portraits from the supplied leadership photographs. */
+.history-photo{position:relative;background:radial-gradient(ellipse at 50% 35%,#18396c 0%,#0c1d3b 55%,#071229 100%);margin:0 0 28px;overflow:hidden;border:1px solid #d4ddeb}.history-photo img{display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:contain;object-position:center bottom}@media(max-width:760px){.history-photo{max-width:420px}.history-card h2{margin-top:0}}
